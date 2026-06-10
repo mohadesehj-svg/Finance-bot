@@ -8,7 +8,7 @@ from telegram.ext import (
 from supabase import create_client, Client
 
 # ─── تنظیمات امن و هماهنگ با رندر ───────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8042445672:AAHmBHG2fI08vrdIGnambUfX-S5Pob5egWA")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8042445672:AAHFGq46-nhQmm9JpYEnaoaHdvDIRLby3yE")
 SUPABASE_URL = os.getenv("SUPABASE_URL", "https://xnadhiqnrsjgwxvdjwyj.supabase.co")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhuYWRoaXFucnNqZ3d4dmRqd3lqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwNzcyNzksImV4cCI6MjA5NjY1MzI3OX0.BYqP768Ns5htizmjOU_3L3sQ8S7hCJbciFoP0reuM9U")
 
